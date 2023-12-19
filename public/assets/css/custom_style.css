@@ -1,0 +1,182 @@
+.product_list{
+    font-size: 15px !important;
+    color:black !important;
+    font-weight: 600 !important;
+    border: none !important;
+}
+.product_list:hover{
+    background: #000 !important;
+    color: #ffffff !important;
+}
+
+.app-menu{
+    background: #000 !important;
+    color: #ffffff !important;
+}
+
+#page-topbar{
+    background: yellow !important;
+    color: #000 !important;
+}
+
+
+.navbar-brand-box{
+    background-color: rgb(241, 241, 42) !important;
+}
+
+.card-header{
+    background: #000000 !important;
+}
+
+.card-header h4{
+    color: rgb(255, 253, 253) !important;
+    font-weight: 600;
+}
+
+
+.card-header h5{
+color: rgb(255, 255, 255);
+}
+
+.avatar-lg i{
+    font-size: 40px !important;
+}
+
+.card_box{
+    padding-bottom: 255px
+}
+
+#footer{
+    margin-top: 105px;
+}
+
+
+.wrapper {
+    display: inline-flex;
+    list-style: none;
+    text-decoration: none;
+    height: 120px;
+    width: 100%;
+    padding-top: 40px;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+  }
+
+  .wrapper .icon {
+    position: relative;
+    background: #fff;
+    border-radius: 50%;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background: #fff;
+    color: #fff;
+    left: 0;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #fff;
+    bottom: -3px;
+    left: 25%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .wrapper .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  .wrapper .icon:hover span,
+  .wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .wrapper .facebook:hover,
+  .wrapper .facebook:hover .tooltip,
+  .wrapper .facebook:hover .tooltip::before {
+    background: #1877f2;
+    color: #fff;
+  }
+
+  .wrapper .twitter:hover,
+  .wrapper .twitter:hover .tooltip,
+  .wrapper .twitter:hover .tooltip::before {
+    background: #ff718a;
+    color: #fff;
+  }
+
+  .wrapper .instagram:hover,
+  .wrapper .instagram:hover .tooltip,
+  .wrapper .instagram:hover .tooltip::before {
+    background: #e4405f;
+    color: #fff;
+  }
+  .wrapper .linkedin:hover,
+  .wrapper .linkedin:hover .tooltip,
+  .wrapper .linkedin:hover .tooltip::before {
+    background: #3f7ccd;
+    color: #fff;
+  }
+  .wrapper .youtube:hover,
+  .wrapper .youtube:hover .tooltip,
+  .wrapper .youtube:hover .tooltip::before {
+    background: #fa0036;
+    color: #fff;
+  }
+  .wrapper .Pinterest:hover,
+  .wrapper .Pinterest:hover .tooltip,
+  .wrapper .Pinterest:hover .tooltip::before {
+    background: #fa0036;
+    color: #fff;
+  }
+  .wrapper .Twitter:hover,
+  .wrapper .Twitter:hover .tooltip,
+  .wrapper .Twitter:hover .tooltip::before {
+    background: #2e60d4;
+    color: #fff;
+  }
+  #copyright {
+    background-color: rgb(250, 206, 9);
+    padding: 15px;
+  }
+
+  .copyright-content p {
+    margin-bottom: 0;
+    color: #000;
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family: var(--header-font);
+  }
+
+  @media screen and (max-width: 575px) {
+    .copyright-content p {
+      font-size: 0.9em;
+    }
+  }
